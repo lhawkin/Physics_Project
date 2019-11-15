@@ -33,11 +33,17 @@ public class Main {
     
     switch (numSolve) {
       case 1:
-        AtwoodPully aP = new AtwoodPulley();
-        System.out.println(d.baseSolver());
+        AtwoodPulley aP = new AtwoodPulley();
+        System.out.println(aP.baseSolver());
+        return;
+      case 2:
+        
+      case 3:
+        
       default:
-        returned = 0;
-        return "Scenario = not found";
+        //returned = 0;
+        System.out.println("Scenario = not found");
+        return;
     }
 
   
