@@ -36,9 +36,16 @@ public class Main {
         AtwoodPulley aP = new AtwoodPulley();
         System.out.println(aP.baseSolver());
         return;
+        
       case 2:
+        TablePulley tP = new TablePulley();
+        System.out.println(tP.baseSolver());
+        return;
         
       case 3:
+        KinematicEquations kE = new KinematicEquations();
+        System.out.println(kE.baseSolver());
+        return;
         
       default:
         //returned = 0;

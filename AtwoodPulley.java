@@ -29,7 +29,7 @@ public class AtwoodPulley implements requiredFunctions {
     System.out.print("Enter Tension force value:  ") ;
     String input = scan.nextLine();
     Object obj = (Object) input;
-    this.m1 = (Double) obj; 
+    this.t = (Double) obj; 
   }
   
   public void setM1(double m1) { this.m1 = m1; }
