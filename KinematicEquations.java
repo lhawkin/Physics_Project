@@ -18,7 +18,11 @@ class KinematicEquations implements requiredFunctions{
     //Finds which variable needs to be solved for calls the proper method to solve
     public String baseSolver() {
         System.out.println("---------------------\nEnter code for the value you need to solve for.   \n");
+<<<<<<< HEAD
+        System.out.println("Displacement     = 1 \nInitial Velocity = 2 \nFinal Velocity   = 3 \nAcceleration     = 4  \nTime Interval    = 5 \n\n");
+=======
         System.out.println("Displacement = 1 \nInitial Velocity = 2 \nFinal Velocity = 3 \nAcceleration = 4  \nTime Interval = 5 \n\n");
+>>>>>>> ed5975b7967de04653f513d30fc5c5d3e48d6cf7
         int solve = scan.nextInt();
         this.setAsking_for(asking_for);
 
@@ -140,11 +144,19 @@ class KinematicEquations implements requiredFunctions{
     // returns list of current variables.
     public ArrayList<Object> getAllVariables(){
         ArrayList<Object> ret = new ArrayList<Object>();
+<<<<<<< HEAD
+        ret.add("X = " + this.getDeltaX());
+        ret.add("a = " + this.getAcceleration());
+        ret.add("Vi = " + this.getVNot());
+        ret.add("Time = " + this.getT());
+        ret.add("Vf = " + this.getFinalVelocity());
+=======
         ret.add(this.getDeltaX());
         ret.add(this.getAcceleration());
         ret.add(this.getVNot());
         ret.add(this.getT());
         ret.add(this.getFinalVelocity());
+>>>>>>> ed5975b7967de04653f513d30fc5c5d3e48d6cf7
         return ret;
     }
     public static void main(String[] args) {
