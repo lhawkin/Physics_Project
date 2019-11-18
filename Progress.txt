@@ -1,24 +1,49 @@
 CS 211 Progress Report 
 Tessima Mengistu
 
+
+
+
 Group Members
+
+
 1.  Luke Hawkins
+
 2.  Abdul Rahimi
+
 3.  Steven Vu
+
 4.  Asadullah Yousuf
+
+
 ---------------------------------------------------------
+
+
 
 Project == Physics Calculator
 
-Goal
+
+
+
+Goals
 1.  Ask and identify situations
+  
 2.  Call the correct class and give general equation for the physics situation 
+
 3.  Ask for which variable to solve and print the solved equation as well as the answer
+
 4.  Add on the most common Physics problems and work to expand once that goal is met
 
+
+
+
 Status
+
 1.  Main function asking for situations
-2.  4 situations as of now 
+
+2.  3 situations as of now. We have 4 but the 4th was uploaded last minute and we were unable to check it
+    a. 2 situations working fully and the 3rd only has a small issue with the final out
 3.  Solves for one variable at a time
+
 4.  Can be used to solve for items such as gravity and friction if needed
 5.  Files standardized using similar methods as well as an interface
