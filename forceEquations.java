@@ -126,8 +126,8 @@ public class forceEquations implements requiredFunctions{
     @Override
     public String baseSolver() {
         System.out.println("Enter the number that matches the variable you need solved\n");
-        System.out.println("Force = 1 \nForce of gravity = 2\nNormal Force = 3\n");
-        System.out.println("Force of Static Friction = 4\n Force of Kinetic Friction = 5\n");
+        System.out.println("Force = 1 \nForce of gravity = 2\nNormal Force = 3");
+        System.out.println("Force of Static Friction = 4\n Force of Kinetic Friction = 5");
         System.out.println("Spring Force = 6");
 
 
@@ -139,19 +139,26 @@ public class forceEquations implements requiredFunctions{
 
 
         }
+        double output;
         switch (choice){
             case 1:
-                return "F = " + solveF();
+                output = solveF();
+                return "F = " + output;
             case 2:
-                return "Fg = " + solveFg();
+                output = solveFg();
+                return "Fg = " + output;
             case 3:
-                return "Fnormal = " + solveFNorm();
+                output = solveFNorm();
+                return "Fnormal = " + output;
             case 4:
-                return "Force of Static Friction = " + solveStatic();
+                output = solveStatic();
+                return "Force of Static Friction = " + output;
             case 5:
-                return "Force of Kinetic Friction = " + solveKinetic();
+                output = solveKinetic();
+                return "Force of Kinetic Friction = " + output;
             case 6:
-                return "Spring Force = " + solveSpring();
+                output = solveSpring();
+                return "Spring Force = " + output;
             default:
                 return "Unsolved";
 
