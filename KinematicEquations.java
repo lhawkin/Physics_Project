@@ -485,8 +485,4 @@ class KinematicEquations implements requiredFunctions{
         // If roots are not real
         return roots;
     }
-    public static void main(String[] args) {
-        KinematicEquations eq = new KinematicEquations();
-        System.out.println(eq.baseSolver());
-    }
 }
