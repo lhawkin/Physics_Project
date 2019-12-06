@@ -1,4 +1,4 @@
-//package com.finalproj;
+
 import java.lang.Math;
 import java.util.*;
 
@@ -143,22 +143,22 @@ public class forceEquations implements requiredFunctions{
         switch (choice){
             case 1:
                 output = solveF();
-                return "F = " + output;
+                return "F = " + output + " Newton(s)";
             case 2:
                 output = solveFg();
-                return "Fg = " + output;
+                return "Fg = " + output + " Newton(s)";
             case 3:
                 output = solveFNorm();
-                return "Fnormal = " + output;
+                return "Fnormal = " + output + " Newton(s)";
             case 4:
                 output = solveStatic();
-                return "Force of Static Friction = " + output;
+                return "Force of Static Friction = " + output + " Newton(s)";
             case 5:
                 output = solveKinetic();
-                return "Force of Kinetic Friction = " + output;
+                return "Force of Kinetic Friction = " + output + " Newton(s)";
             case 6:
                 output = solveSpring();
-                return "Spring Force = " + output;
+                return "Spring Force = " + output + " Newton(s)";
             default:
                 return "Unsolved";
 
