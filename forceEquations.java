@@ -114,12 +114,12 @@ public class forceEquations implements requiredFunctions{
     //Default constructor will print out formulas for the user to see
     public forceEquations(){
         System.out.println("The equations that may be used are: ");
-        System.out.println("F = m*a");
-        System.out.println("Fg = m*g");
-        System.out.println("Fnormal = |m*g|");
-        System.out.println("Fstatic = Ms * Fn");
-        System.out.println("Fkinetic = Mk * Fn");
-        System.out.println("Fspring = -k*x");
+        System.out.println("    F = m*a");
+        System.out.println("    Fg = m*g");
+        System.out.println("    Fnormal = |m*g|");
+        System.out.println("    Fstatic = Ms * Fn");
+        System.out.println("    Fkinetic = Mk * Fn");
+        System.out.println("    Fspring = -k*x\n\n");
     }
 
 
@@ -128,7 +128,7 @@ public class forceEquations implements requiredFunctions{
         System.out.println("Enter the number that matches the variable you need solved\n");
         System.out.println("Force = 1 \nForce of gravity = 2\nNormal Force = 3");
         System.out.println("Force of Static Friction = 4\n Force of Kinetic Friction = 5");
-        System.out.println("Spring Force = 6");
+        System.out.println("Spring Force = 6\n\n");
 
 
         choice = input.nextInt();
