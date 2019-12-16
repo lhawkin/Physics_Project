@@ -1,3 +1,4 @@
+package com.finalproj;
 import java.util.*;
 import java.io.*;
 
@@ -17,7 +18,7 @@ public class CustomFunction {
   }
 
   public String normalize(String str){
-    System.out.println("The equation given is " + str);
+
     String result = "";
     HashMap<Character, Double> map = new HashMap<>();
     for (int i = 0; i < str.length(); i++){
@@ -38,7 +39,7 @@ public class CustomFunction {
         result += str.charAt(i);
       }
     }
-    //System.out.println("The normalized equation is:"+ result);
+
     return result;
   }
 
